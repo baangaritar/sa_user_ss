@@ -15,7 +15,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
   password: arqui
-  host: sa_user_ss_db
+  host: sa-user-ss-db
 
 development:
   <<: *default
